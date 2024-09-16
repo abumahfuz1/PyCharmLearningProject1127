@@ -1,84 +1,52 @@
 
+borozi_name = "Rahma"
+sister_name = "Ruhama"
+borozi_age = "7"
+sister_age = "5"
 
-Rahma_Age = 7
-Ruhama_Age = 5
-Age_at_Kindergarten = 5
-Age_at_2grade = 7
-
-print(Ruhama_Age == Age_at_Kindergarten)
-print(Rahma_Age == Age_at_Kindergarten)
-print(Age_at_2grade == Rahma_Age)
-
-if Rahma_Age < Age_at_2grade:
-    print("Rahma should not be in Kindergarten")
-elif Rahma_Age > Age_at_2grade:
-    print("Rahma should not be in 2nd grade")
-else:
-    print("Rahma should be in 2nd grade")
-
-print("####################################")
-print("####################################")
-print("          ")
-print("Ruhama")
-print("          ")
-print("          ")
-print("          ")
-print("          ")
-
-#print("Hello Rahma, Ruhama and Saleh")
-#print("How are you doing?")
-#print("Rahma said good, then Ruhama also said good")
-#print("But Saleh did not say anything")
-#print("Because he is in Michigan, and he does not know what we are talking about")
-#print("Rahma and Ruhama said, we need to clean up our dad and moms room")
-#print("Rahma  Ruhama are happy about their parents")
+print("Amar boro zi name " + borozi_name + ",")
+print("Rahma is " + borozi_age + " years old,")
+print("She is very smart")
+print("Rahma has a baby sister")
+print("Her name is Ruhama")
+print("Ruhama is " +sister_age + " years old")
 
 
+print("Al-Ikhlas \nTraining \nAcademy")
 
-Rahma_Age = 7
-Ruhama_Age = 5
-Age_at_Kindergarten = 5
-Age_at_2grade = 7
+print("Al-Ikhlas \"Training Academy")
 
-print(Ruhama_Age == Age_at_Kindergarten)
-print(Rahma_Age == Age_at_Kindergarten)
-print(Age_at_2grade == Rahma_Age)
+print("---- Asigning Value------")
 
-if Ruhama_Age != Age_at_Kindergarten:
-    print("Ruhama should not be in 2nd grade")
-elif Ruhama_Age > Age_at_Kindergarten:
-    print("Ruhama should not be in Kindergarten")
-else:
-    print("Ruhama should be in Kindergarten")
+print("------ Concatination------")
 
+media = "Banglaamar Multimedia"
+print(media + " was established in 2002")
+print(media.upper())
+print(media.lower())
+print(media.upper().isupper())
+print(media.lower().isupper())
+print(len(media))
+print(media[0])
+print(media.index("Multimedia"))
+print(media.replace("Banglaamar", "NovaBangla"))
 
-print("Hello Rahma, Ruhama and Saleh")
-print("How are you doing?")
-print("Rahma said good, then Ruhama also said good")
-print("But Saleh did not say anything")
-print("Because he is in Michigan, and he does not know what we are talking about")
-print("Rahma and Ruhama said, we need to clean up our dad and moms room")
-print("Rahma  Ruhama are happy about their parents")
+print("------ Working with Numbers------")
+print(2.89845)
+print(3+4*3/2.5)
+print(3*(4+5))
+print("------ Remainder-----")
+print(14%3) #reminder 14/3=4 reainder 2
 
-print (4==4)
-print(5==5)
-print(5!=4)
-print(5>=4)
-########
-print("####################################")
-print("####################################")
-print("          ")
-print("          ")
-print("New Programming")
-print("          ")
-print("          ")
-print("          ")
-
-
-def print_rahma():
-    text = "Rama and Ruhama are very smart"
-    print(text)
-    print(text)
-
-print_rahma()
-
+my_num = -5
+print(my_num)
+print ("my number is",  + my_num *5)
+print(str(my_num) + " my favorite number")
+print(abs(my_num))  #absolute value
+print(pow(2,5)) #2x2x2x2
+print(max(4,6))
+print(min(4,6))
+print(round(4.6))
+from math import *
+print(floor(4.6))
+print(ceil(4.2))
